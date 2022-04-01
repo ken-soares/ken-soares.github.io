@@ -192,3 +192,6 @@ a{
 	margin-bottom:0px;
 	margin-top:80px;
 }
+.links:hover{
+	color:deeppink;
+}
