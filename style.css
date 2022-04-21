@@ -58,8 +58,8 @@ h1{
 @media only screen and (max-height:600px){
 	.hero-text{
 		margin-top: 15%;
-		
 	}
+
 	h1{
 		font-size:60px;
 	}
@@ -74,7 +74,7 @@ h1{
 		margin-right:5%;
 		background-color: rgba(0, 0, 0, 0.5);
 	}
-	
+
 }
 .button{
 	width:200px;
@@ -118,7 +118,6 @@ h2{
 	border-radius:150px;
 	margin-top:10%;
 	margin-right:30px;
-  
 }
 
 .project-card{
