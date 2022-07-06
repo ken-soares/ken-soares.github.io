@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<title>Kenneth Soares - Links</title>
+	<link rel="stylesheet" href="styles.css">
+	<script src="three.min.js"></script>
+	<script src="vanta.birds.min.js"></script>
+	<script>
+		window.addEventListener("DOMContentLoaded", () => {
+					VANTA.BIRDS({
+					  el: "#vanta",
+					  mousecontrols: true,
+					  touchControls: true,
+					  gyroControls: true,
+					  minHeight: 200.00,
+					  minWidth: 200.00,
+					  scale: 0.60,
+					  scaleMobile: 1.00,
+					  color1: 0x171750,
+					  color2: 0x2b6102,
+					  wingSpan: 40.00,
+					  speedLimit: 4.00,
+					  separation: 65.00,
+					  alignment: 44.00,
+					  cohesion: 63.00,
+					  quantity: 2.00,
+					  backgroundAlpha: 0.00
+					})
+					const main = document.querySelector("main");
+					main.style.filter = 'blur(0px)';
+					main.style.opacity = 1;
+				})
+	</script>
+</head>
+<body>
+	<div id="vanta"></div>
+	<main>
+		<header>
+			<img src="images/pfp.png" class="pfp"/>
+			<h1>@haiiro_koneko</h1>
+		</header>
+		<ul>
+			<li>
+				<a href="https://ken-soares.github.io">
+					<img src="./images/homepage.svg" width="20"/>
+					My Website</a>
+			</li>
+			<li>
+				<a href="https://github.com/ken-soares">
+					<img src="./images/github.svg" width="20"/>
+					GitHub</a>
+			</li>
+			<li>
+				<a href="https://www.youtube.com/channel/UCpcViFgwM_eMDnFFJgXqVbA">
+					<img src="./images/youtube.svg" width="20"/>
+					Youtube
+				</a>
+			</li>
+			<li>
+				<a href="https://twitter.com/haiirokonekoda">
+					<img src="./images/twitter.svg" width="20"/>
+					Twitter
+				</a>
+			</li>
+		</ul>
+	</main>
+</body>
+</html>
