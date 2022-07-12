@@ -40,9 +40,14 @@ img{
 	box-shadow:#444 0px 1px 10px 0px;
 }
 
+ul{
+	padding:0;
+	margin:0;
+}
+
 @media only screen and (max-width: 1159px) {
 	img{
-		margin:25vh 20px;
+		margin:25vh 10px;
 		width:30%;
 		height:30%;
 	}
@@ -56,9 +61,12 @@ img{
 		align-items:center;
 	}
 	img{
-		margin:10vh 20px;
+		margin:10vh 0px;
 		width:50%;
 		height:50%;
+	}
+	ul,h2{
+		margin-left:25%;
 	}
 }
 .grid{
@@ -71,10 +79,6 @@ img{
 	grid-gap:10px;
 }
 
-ul{
-	padding:0;
-	margin:0;
-}
 li{
 	list-style:none;
 	margin-bottom:1%;
