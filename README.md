@@ -1,4 +1,4 @@
 # My 2022 website
 
-this is my website for this year and probably the next few years, I called it "peach" because
-of the whole color theme going on
+This is my 2022 website called "cards'n blobs" because, well, it contains cards and blobs...
+You can also visit my [previous website](https://ken-soares.github.io/misc/peach) called "peach" because of it's color theme.
