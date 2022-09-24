@@ -58,7 +58,7 @@ li a{
     display:block;
     padding:8px 0px;
     text-decoration:none;
-    text-align:center;  
+    text-align:center;
 }
 
 .footer{
@@ -111,7 +111,7 @@ h2{
 @keyframes spin_words {
    100%{
        transform:translateY(-112%);
-   } 
+   }
    25%{
        transform:translateY(-100%);
    }
