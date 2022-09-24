@@ -41,18 +41,18 @@ body{
 	}
 }
 
-#toggleButton{
-	position:fixed;
-	top:0;
-	right:0;
-	height:50px;
-	width:50px;
-}
-
-#toggleButton:hover{
-	background:none;
-	transition:.2s;
-}
+//#toggleButton{
+//	position:fixed;
+//	top:0;
+//	right:0;
+//	height:50px;
+//	width:50px;
+//}
+//
+//#toggleButton:hover{
+//	background:none;
+//	transition:.2s;
+//}
 section{
     text-align:center;
 }
