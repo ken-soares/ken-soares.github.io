@@ -11,10 +11,17 @@ body{
 .posts > li{
     list-style:none;
 }
+<<<<<<< HEAD
  
 .posts > li > a{
     color: #222;
     text-decoration:none;
+=======
+
+.posts > li > a{
+   color: #222;
+   text-decoration:none;
+>>>>>>> d05c118 (changes)
 }
 
 .tag-post{
