@@ -16,10 +16,6 @@ body{
     text-decoration:none;
  }
 
-pre{
-    border: 1px solid #222;
-    border-radius:10px;
-}
 .tag-post{
    background-color: green;
    border-radius:20px;
