@@ -16,7 +16,7 @@ body{
     text-decoration:none;
  }
 
-code{
+pre{
     border: 1px solid #222;
     border-radius:10px;
 }
