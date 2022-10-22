@@ -11,10 +11,11 @@ body{
 .posts > li{
     list-style:none;
 }
- .posts > li > a{
+ 
+.posts > li > a{
     color: #222;
     text-decoration:none;
- }
+}
 
 .tag-post{
    background-color: green;
