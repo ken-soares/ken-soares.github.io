@@ -5,6 +5,10 @@ body{
     padding: 25px;
 }
 
+pre{
+    overflow-x:auto
+}
+
 .hero-text{
     font-size:60px;
 }
