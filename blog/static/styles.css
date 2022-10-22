@@ -6,7 +6,7 @@ body{
 }
 
 pre{
-    overflow-x:auto
+    overflow-x:auto;
 }
 
 .hero-text{
