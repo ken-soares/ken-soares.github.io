@@ -1,204 +1,203 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kenneth Soares</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <head>
+	<meta charset="UTF-8"/>
+	<title>Kenneth Soares</title>
+	<link href="styles.css" rel="stylesheet"/>
+	<link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,500;0,600;0,700;0,800;1,400&amp;display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+	<link rel="manifest" href="img/site.webmanifest">
+	<link rel="mask-icon" href="img/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
+  </head>
+  <body>
+	<script defer src="scripts/script.js"></script>
+	<div class="topnav">
+		<a href="index.html" class="active">
+		  KS
+		</a>
+		<div id="myLinks">
+			<a href="#about">About</a>
+			<a href="#contact">Contact</a>
+			<a href="https://ken-soares.github.io/blog" target="_blank" rel="noopener noreferrer">Blog</a>
+			<a href="https://github.com/ken-soares" target="_blank" rel="noopener noreferrer"><img id="github" src="img/github.svg" alt="github logo"></a>
+			<a href="https://twitter.com/haiirokonekoda" target="_blank" rel="noopener noreferrer"><img id="twitter" src="img/twitter.svg" alt="twitter logo"></a>
+		</div>
+		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+			<i class="fa fa-bars"></i>
+		</a>
+	</div>
+	<div class="top">
+		<h1>Kenneth Soares</h1>
+		<i><h2 class="line-1 anim-typewriter">Student in computer science</h2></i>
 
-
-</head>
-<body>
-    <script src="scripts/script.js" defer></script>
-    <section class="hero">
-        <nav id="myNav">
-            <ul>
-                <li><a href="#about-me">About Me</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li><a href="https://ken-soares.github.io/blog">Blog</a></li>
-                <li><a href="https://github.com/ken-soares" target="_blank" rel="noopener noreferrer"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg></a></li>
-                <li><a href="https://twitter.com/haiirokonekoda" target="_blank" rel="noopener noreferrer"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/></svg></a></li>
-            </ul>
-        </nav>
-
-        <div class="hero-text">
-            <h1>Kenneth Soares</h1>
-<!--			<button onclick="toggle()" id="toggleButton"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg></button> -->
-            <div class="wrapper">
-                <div class="words">
-                    <span class="animate">Highschool Student</span>
-                    <span class="animate">Self-taught Developer</span>
-                    <span class="animate">Linux Lover</span>
-                    <span class="animate">Anime Enjoyer</span>
-                    <span class="animate">Rhythm Gamer</span>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section>
-        <h2 id="about-me">About Me</h2>
-        <div class="grid">
-            <div class="whoami">
-                <div class="content">
-                    <img src="img/pfp.jpg" alt="me" class="pfp">
-                    <h3>Who Am I?</h3>
-                    <ul>
-                        <li>👨‍🎓🇫🇷</li>
-                        <li>I'm in my Senior year of highschool in France</li>
-                        <li>I will graduate highschool with math and computer science</li>
-                        <li>I can speak French and English fluently and have a N5 level (beginner) in Japanese</li>
-                        <li>🖥️🌐</li>
-                        <li>On Internet since 2015 under the names 灰色子猫 (HaiiroKoneko) and IcePhoneX</li>
-                        <li>Started coding in 2017 with Python and made tiny games with pygame as well as websites with HTML and CSS (JavaScript came later)</li>
-                        <li>I have used all 3 major linux distros and settled on Fedora Workstation 36 for now</li>
-                        <li>I love <b>both</b> (n)Vim and Emacs although I tend to use (n)Vim a bit more because I love my fish config and the gruvbox theme in Airline (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧</li>
-                        <li>🎮🌸</li>
-                        <li>Started playing rhythm games with osu! in 2019 and then discovered Arcaea and Taiko no Tatsujin</li>
-                        <li>I play Blue Archive (it's the only mobile gacha game that I play)</li>
-                        <li>I watch a good amount anime</li>
-                        <li>(but not much shōnen though, they have way too many episodes...)</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="skills-bar">
-                <center>
-                    <h3>Coding Skills</h3>
-                </center>
-                <p> This list does not contain everything I know, I only selected the one I use the most and know the best.
-                    These skills are self-evaluated and represent the percentage of mastery when it comes to what the language has to offer in its most basic form
-                    (this does include programming paradigms like OO features in C++ and libraries included by default with the language like tkinter for Python).
-                </p>
-                <div class="bar">
-                    <div class="info">
-                        <span>Python</span>
-                    </div>
-                    <div class="progress-line python"><span></span></div>
-                </div>
-
-                <div class="bar">
-                    <div class="info">
-                        <span>JavaScript/TypeScript</span>
-                    </div>
-                    <div class="progress-line js"><span></span></div>
-                </div>
-
-                <div class="bar">
-                    <div class="info">
-                        <span>HTML+CSS</span>
-                    </div>
-                    <div class="progress-line html"><span></span></div>
-                </div>
-
-                <div class="bar">
-                    <div class="info">
-                        <span>C/C++</span>
-                    </div>
-                    <div class="progress-line cpp"><span></span></div>
-                </div>
-
-                <div class="bar">
-                    <div class="info">
-                        <span>Bash/Zsh</span>
-                    </div>
-                    <div class="progress-line sh"><span></span></div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="">
-        <h2 id="projects">Projects</h2>
-        <p>Here is a list of my best finished projects, you can click on the blob-shaped cards to go to the website where the project is hosted.</p>
-        <div class="blobs">
-
-            <div class="circle1">
-                <a href="https://github.com/ken-soares/Yuki-chan-discordbot" target="_blank" rel="noopener noreferrer">
-                    <img src="img/project2.png" alt="">
-                    <div class="overlay">
-                        <div class="contentb">
-                            <h3>View more📎</h3>
-                        </div>
-                    </div>
-                </a>
-                <p>
-                    Yuki-chan is a Discord bot I made last year in python, this project taught me lots of things such as async programming in python
-                    as well as working with git and feature requests.
-                </p>
-            </div>
-            <div class="circle2">
-                <a href="https://haiirokoneko.itch.io/the-other-other-spaceship-game" target="_blank" rel="noopener noreferrer">
-                    <img src="img/project1.png" alt="">
-                    <div class="overlay">
-                        <div class="contentb">
-                            <h3>View more📎</h3>
-                        </div>
-                    </div>
-                </a>
-                <p>
-                    The Other Other Spaceship Game is a bullet-hell game that I made in one week using the Unity game engine and c#, it was my first experience with the language
-                    and I learned lots of object oriented concepts along the way.
-                </p>
-            </div>
-            <div class="circle3">
-
-                <img src="img/project3.png" alt="">
-                <a href="https://github.com/ken-soares/EddyT" target="_blank" rel="noopener noreferrer">
-                    <div class="overlay">
-                        <div class="contentb">
-                            <h3>View more📎</h3>
-                        </div>
-                    </div>
-                </a>
-                <p>
-                    EddyT is a text editor built with Python, I build it with two classmates as a final project for my Junior year of highschool, by building it, we learned about working
-                    in a team and working with others code as well as working with tkinter.
-                </p>
-            </div>
-        </div>
-        <p>I have more projects available to see on my <a href="https://github.com/ken-soares?tab=repositories">github.</a></p>
-    </section>
-    <section>
-        <h2 id="contact">Contact Me</h2>
-        <div class="grid">
-            <div class="contact">
-                <div class="content">
-                    <h3>Via Email</h3>
-                    <form action="https://formsubmit.co/kensoares@gmail.com" method="POST">
-                        <div class="enter">
-                            <input type="text" name="name"  placeholder="Your name" required>
-                            <input type="email" name="email" placeholder="Email Address" required>
-                            <textarea name="message" required></textarea>
-                            <input type="hidden" name="_next" value="https://ken-soares.github.io/thankyou.html">
-                        </div>
-                        <button type="submit">Send</button>
-                    </form>
-                    <p>⚠️Please do not send spam or irrelevant Emails</p>
-                </div>
-            </div>
-        </div>
-        <div class="grid">
-            <div class="contact">
-                <div class="content">
-                    <h3>Join my Discord Server</h3>
-                    <iframe src="https://discord.com/widget?id=816351899313897534&theme=light" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
-                </div>
-            </div>
-        </div>
-    </section>
-    <footer>
-        <div class="content">
-            <p class="footer">"cards'n blobs" website, Kenneth Soares (2022). Source code available on <a href="https://github.com/ken-soares/ken-soares.github.io">github</a>
-            </p>
-            <hr>
-            <p class="footer">My older <a href="https://ken-soares.github.io/misc/peach">"peach"</a> themed website (2021)</p>
-        </div>
-    </footer>
-</body>
+		<img id="aly" alt="Alyzée" src="img/alyzée_sans_fond.png"/>
+	</div>
+	<div class="background">
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+	</div>
+	<div id="about">
+	  <div id="content">
+			<div class="info">
+				<h2>About Me</h2>
+				<img alt="" src="img/pfp.jpg"/>
+				<h3>Who Am I?</h3>
+				<ul>
+					<li>👨‍🎓🇫🇷 Education</li>
+					<li><hr></li>
+					<li>I'm in my Senior year of highschool in France</li>
+					<li>I will graduate highschool with math and computer science</li>
+					<li>I will join
+						<a href="https://en.wikipedia.org/wiki/Epitech" target="_blank" rel="noopener noreferrer">EPITECH</a>
+						Paris next year, a computer science school delivering a european master's degree.</li>
+						<li>It's main two advantages are it's "learning by doing" pedagogy and easy integration into the corporate world</li>
+					<li>I can speak French and English fluently and have a N5 level (beginner) in Japanese</li>
+				</ul>
+				<ul>
+					<li>🖥️🌐 Tech</li>
+					<li><hr></li>
+					<li>On Internet since 2015 under the names HaiiroKoneko and IcePhoneX</li>
+					<li>I started coding in 2017 with Python and made tiny games with pygame as well as websites with HTML and CSS</li>
+					<li>Nowadays, my favourites languages are Typescript and Golang</li>
+					<li>I've worked quite a bit with React and Express js</li>
+					<li>I use Fedora Linux as my main OS and Raspberry PI OS Lite on my personnal git server</li>
+					<li>My workflow is based around neovim and tmux but I also like to use Emacs from time to time</li>
+				</ul>
+				<ul>
+					<li>🎮🌸 Entertainment</li>
+					<li><hr></li>
+					<li>I like Touhou Project</li>
+					<li>I started playing rhythm games with osu! in 2019 and then discovered Arcaea and Taiko no Tatsujin</li>
+					<li>I watch a decent amount anime</li>
+				</ul>
+			</div>
+			<div class="skills-bar">
+				<center><h3>Coding Skills</h3></center>
+				<p>This is an auto-evaluation of my programming skills, the percentage represents how much I know a technology based on what it has to offer in it's standard library.</p>
+				<div class="bar">
+					<div class="info">
+						<span>Python</span>
+					</div>
+					<div class="progress-line python"><span></span></div>
+				</div>
+				<div class="bar">
+					<div class="info">
+						<span>HTML+CSS</span>
+					</div>
+					<div class="progress-line html"><span></span></div>
+				</div>
+				<div class="bar">
+					<div class="info">
+						<span>JavaScript/TypeScript</span>
+					</div>
+					<div class="progress-line js"><span></span></div>
+				</div>
+				<div class="bar">
+					<div class="info">
+						<span>C/C++</span>
+					</div>
+					<div class="progress-line cpp"><span></span></div>
+				</div>
+				<div class="bar">
+					<div class="info">
+						<span>Bash/Zsh</span>
+					</div>
+					<div class="progress-line sh"><span></span></div>
+				</div>
+			</div>
+			<center><h3>My Personal Projects</h3></center>
+			<p>You can find more of my projects on
+			my <a href="https://github.com/ken-soares" target="_blank" rel="noopener noreferrer">github account</a>.</p>
+			<section class="container">
+				<a href="https://github.com/ken-soares/ken-soares.github.io" target="_blank" rel="noopener noreferrer">
+					<div class="card">
+						<div class="card-image car-1"></div>
+						<h2>Codename: Æther</h2>
+						<p>This website you can see with features like
+						animations and responsive design.</p>
+					</div>
+				</a>
+				<a href="https://haiirokoneko.itch.io/the-other-other-spaceship-game" target="_blank" rel="noopener noreferrer">
+					<div class="card">
+						<div class="card-image car-2"></div>
+						<h2>TOOSG</h2>
+						<p>The Other Other Spaceship Game (TOOSG for
+						short) is a game I made in Unity in a week.</p>
+					</div>
+				</a>
+				<a href="https://github.com/ken-soares/yuki-chan-discordbot" target="_blank" rel="noopener noreferrer">
+					<div class="card">
+						<div class="card-image car-3"></div>
+						<h2>Yuki-chan</h2>
+						<p>A Discord bot written in Python</p>
+					</div>
+				</a>
+				<a href="https://pypi.org/project/pyssgen" target="_blank" rel="noopener noreferrer">
+					<div class="card">
+						<div class="card-image car-4"></div>
+						<h2>pyssgen</h2>
+						<p>A static site generator written in Python</p>
+					</div>
+				</a>
+			</section>
+			<section class="contact">
+				<h2 id="contact">Contact Me</h2>
+				<div class="grid">
+					<div class="contact">
+						<div class="content">
+							<h3>Via Email</h3>
+							<form action="https://formsubmit.co/kensoares@gmail.com" method="POST">
+								<div class="enter">
+									<input type="text" name="name"  placeholder="Your name" required>
+									<input type="email" name="email" placeholder="Email Address" required>
+									<textarea name="message" required></textarea>
+									<input type="hidden" name="_next" value="https://ken-soares.github.io/thankyou.html">
+								</div>
+								<button type="submit">Send</button>
+							</form>
+							<p>⚠️Please do not send spam or irrelevant Emails</p>
+						</div>
+					</div>
+				</div>
+			</section>
+	  </div>
+	</div>
+	<footer>
+		<p>"Æther" portfolio website - Kenneth Soares 2023</p>
+		<p>Other pages:</p>
+		<ul>
+			<li><a href="https://ken-soares.github.io/misc/cards/" target="_blank" rel="noopener noreferrer">"cards'n blobs" website (2022)</a> | <a href="https://ken-soares.github.io/misc/peach/" target="_blank" rel="noopener noreferrer">"peach" website (2021)</a></li>
+			<li><a href="https://ken-soares.github.io/misc/homepage/" target="_blank" rel="noopener noreferrer">browser homepage</a> | <a href="https://ken-soares.github.io/misc/insta/" target="_blank" rel="noopener noreferrer">instagram homepage</a></li>
+		</ul>
+	</footer>
+  </body>
 </html>

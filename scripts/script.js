@@ -1,8 +1,8 @@
-function toggle() {
-  var x = document.getElementById("myNav");
-  if (x.style.visibility === "hidden") {
-    x.style.visibility = "visible";
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
   } else {
-    x.style.visibility = "hidden";
+    x.style.display = "block";
   }
 }
