@@ -618,7 +618,7 @@ a:hover{
   from{border-right-color: rgba(255,255,255,.75);}
   to{border-right-color: transparent;}
 }
-@media screen and (max-width: 767px){
+@media screen and (max-width: 400px){
 	.top > h1{
 		font-size:60px;
 	}
