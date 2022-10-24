@@ -6,6 +6,16 @@ body{
 	margin:0;
 	padding:0;
 }
+#content{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	flex-direction:column;
+}
+.top > h1{
+	padding-top:2%;
+	font-size:80px;
+}
 
 #twitter,
 #github{
@@ -301,43 +311,8 @@ body{
 	height:100vh;
 }
 
-@media screen and (max-width: 767px){
-	.top > h1{
-		font-size:60px;
-	}
-
-	.info > h2{
-		font-size:30px;
-	}
-	.info > ul{
-		list-style-type:none;
-		text-align:left;
-		padding-left:10%;
-		padding-right:10%;
-	}
-	.info > li{
-		font-size:8px;
-	}
-
-	.info > img{
-		width:7%;
-		border-radius: 200px;
-	}
-}
-
-#content{
-	display:flex;
-	align-items:center;
-	justify-content:center;
-	flex-direction:column;
-}
-.top > h1{
-	padding-top:2%;
-	font-size:80px;
-}
 #aly{
-	width:35%;
-	height:auto;
+	max-height:60vh;
 	filter: drop-shadow(2px 2px 4px #cbb);
 	animation: float 4s ease-in-out infinite;
 }
@@ -560,7 +535,7 @@ body{
 }
 .contact{
     text-align:center;
-    width:600px;
+    width:70vw;
     border-radius:10px;
 	margin-bottom:40px;
 }
@@ -637,9 +612,39 @@ a:hover{
 }
 @keyframes typewriter{
   from{width: 0;}
-  to{width: 12em;}
+  to{width: 11em;}
 }
 @keyframes blinkTextCursor{
   from{border-right-color: rgba(255,255,255,.75);}
   to{border-right-color: transparent;}
 }
+@media screen and (max-width: 767px){
+	.top > h1{
+		font-size:60px;
+	}
+
+	.info > h2{
+		font-size:30px;
+	}
+	.info > ul{
+		list-style-type:none;
+		text-align:left;
+		padding-left:10%;
+		padding-right:10%;
+	}
+	.info > li{
+		font-size:8px;
+	}
+
+	.info > img{
+		width:7%;
+		border-radius: 200px;
+	}
+
+	.top > h1{
+		font-size:60px;
+		margin:80px;
+	}
+}
+
+
