@@ -1,19 +1,34 @@
-const animationSpinning = [
-    {transform: 'rotate(0) scale(1)'},
-    {transform: 'rotate(360deg) scale(0)'}
-];
+function unfade(element) {
+    var op = 0.1;  // initial opacity
+    element.style.display = 'block';
+    var timer = setInterval(function () {
+        if (op >= 1){
+            clearInterval(timer);
+        }
+        element.style.opacity = op;
+        element.style.filter = 'alpha(opacity=' + op * 100 + ")";
+        op += op * 0.1;
+    }, 10);
+}
 
-const animationTiming = {
-    duration: 2000,
-    iterations: 1
+function fade(element) {
+    var op = 1;  // initial opacity
+    var timer = setInterval(function () {
+        if (op <= 0.1){
+            clearInterval(timer);
+            element.style.display = 'none';
+        }
+        element.style.opacity = op;
+        element.style.filter = 'alpha(opacity=' + op * 100 + ")";
+        op -= op * 0.1;
+    }, 50);
 }
 
 function myFunction() {
   var x = document.getElementById("myLinks");
   if (x.style.display === "block") {
-    x.style.display = "none";
+      fade(x);
   } else {
-    x.style.display = "block";
-    x.animate()
+      unfade(x);
   }
 }
