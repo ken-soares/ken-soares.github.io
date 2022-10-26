@@ -1,12 +1,19 @@
+:root{
+    --background:#282a36;
+    --foreground:#f8f8f2;
+    --green: #50fa7b;
+    --red: #ff5555;
+}
+
 body{
     font-family: 'Fira Sans Condensed', sans-serif;
-    background-color: #eee;
-    color:#222;
-    padding: 25px;
+    background-color: var(--background);
+    color: var(--foreground);
+    padding:15px;
 }
 
 pre{
-    overflow-x:auto;
+    overflow-x: auto;
 }
 
 .hero-text{
@@ -14,18 +21,18 @@ pre{
 }
 
 .posts > li{
-    list-style:none;
+    list-style: none;
 }
-.posts > li > a{
-    color: #222;
-    text-decoration:none;
 
+.posts > li > a{
+    color: var(--foreground);
+    text-decoration: none;
 }
 
 .tag-post{
-   background-color: green;
+   background-color: var(--green);
    border-radius:20px;
    padding:4px;
    font-size:12px;
-   color:#eee;
+   color:var(--foreground);
 }
