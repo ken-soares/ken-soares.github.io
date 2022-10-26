@@ -1,7 +1,7 @@
 :root{
     --background:#44475a;
     --foreground:#f8f8f2;
-    --green: #50fa7b;
+    --post: #6272a4;
     --red: #ff5555;
     --purple: #bd93f9;
 }
@@ -10,7 +10,7 @@ body{
     font-family: 'Fira Sans Condensed', sans-serif;
     color: var(--foreground);
     padding:15px;
-    background: linear-gradient(403deg, #282a36 6.25%, #44475a 6.25%, #44475a 43.75%, #282a36 43.75%, #282a36 56.25%, #44475a 56.25%, #44475a 93.75%, #282a36 93.75%);
+    background: linear-gradient(403deg, #44475a 6.25%, #282a36 6.25%, #282a36 43.75%, #44475a 43.75%, #44475a 56.25%, #282a36 56.25%, #282a36 93.75%, #44475a 93.75%);
     background-size: 6px 6px;
     background-position: 50px 50px;
 }
@@ -38,7 +38,7 @@ a{
 }
 
 .tag-post{
-   background-color: var(--green);
+   background-color: var(--post);
    border-radius:20px;
    padding:4px;
    font-size:12px;
@@ -46,5 +46,7 @@ a{
 }
 
 .main{
-    background-color:var(--background);
+    background-color:#282a36;
+    padding:20px;
+    border-radius:20px;
 }
