@@ -444,6 +444,8 @@ body{
 
 .topnav #myLinks {
   display: none;
+  transition:.3s;
+  transition-timing-function:ease-out;
 }
 
 .topnav a {
@@ -452,8 +454,6 @@ body{
   padding: 14px 16px;
   text-decoration: none;
   font-size: 20px;
-  transition:.3s;
-  transition-timing-function:ease-out;
 }
 
 .topnav a.icon {
