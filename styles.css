@@ -732,7 +732,7 @@ a:hover{
 @media screen and (max-width: 400px){
     #aly{
         margin-top: 45px;
-        width:85%;
+        width:80%;
     }
     .top > h2{
         font-size: 1.25em;
