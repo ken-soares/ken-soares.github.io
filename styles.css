@@ -669,6 +669,10 @@ a:hover{
 
 @media screen and (max-width: 450px){
 
+    p{
+        font-size: 14px;
+    }
+
     .top > h2{
         font-size: 1.5em;
     }
@@ -702,7 +706,7 @@ a:hover{
 	}
 
     nav{
-        font-size:10px;
+        font-size:11px;
     }
 
     .enter input,
@@ -727,10 +731,13 @@ a:hover{
 
 @media screen and (max-width: 400px){
     #aly{
-        margin-top: 25px;
-        width:70%;
+        margin-top: 45px;
+        width:85%;
     }
     .top > h2{
-        font-size: 1.45em;
+        font-size: 1.25em;
+    }
+    nav{
+        font-size:8px;
     }
 }
