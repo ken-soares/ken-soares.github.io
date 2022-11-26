@@ -687,7 +687,7 @@ a:hover{
 	}
 
     .info span{
-        font-size: 14px;
+        font-size: 12px;
     }
 
 	.info > ul{
@@ -738,6 +738,6 @@ a:hover{
         font-size: 1.25em;
     }
     nav{
-        font-size:8px;
+        font-size:10px;
     }
 }
