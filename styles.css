@@ -731,11 +731,11 @@ a:hover{
 
 @media screen and (max-width: 400px){
     #aly{
-        margin-top: 45px;
+        margin-top: 35px;
         width:80%;
     }
     .top h1{
-        font-size: 40px;
+       font-size: 35px;
     }
     .top > h2{
         font-size: 1.25em;
