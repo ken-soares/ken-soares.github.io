@@ -312,9 +312,12 @@ body{
 }
 
 #aly{
-	max-height:60vh;
 	filter: drop-shadow(2px 2px 4px #cbb);
 	animation: float 4s ease-in-out infinite;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
 }
 
 #about{
@@ -467,9 +470,9 @@ nav ul li {
     display:inline-block;
 }
 
-li > a:after { content: ' »'; } /* Change this in order to change the Dropdown symbol */
+nav li > a:after { content: ' »'; } /* Change this in order to change the Dropdown symbol */
 
-li > a:only-child:after { content: ''; }
+nav li > a:only-child:after { content: ''; }
 
 nav ul li a {
 	padding:20px;
@@ -637,35 +640,6 @@ a:hover{
     overflow: hidden;
 }
 
-@media screen and (max-width: 400px){
-	.top > h1{
-		font-size:60px;
-	}
-
-	.info > h2{
-		font-size:30px;
-	}
-	.info > ul{
-		list-style-type:none;
-		text-align:left;
-		padding-left:10%;
-		padding-right:10%;
-	}
-	.info > li{
-		font-size:8px;
-	}
-
-	.info > img{
-		width:7%;
-		border-radius: 200px;
-	}
-
-	.top > h1{
-		font-size:60px;
-		margin:80px;
-	}
-}
-
 .top h2{
     text-transform: uppercase;
     font-size: 2em;
@@ -687,3 +661,51 @@ a:hover{
     background-position: 500%;
   }
 }
+
+@media screen and (max-width: 450px){
+
+    .top > h2{
+        font-size: 1.5em;
+    }
+    #aly{
+        margin-top: 80px;
+    }
+
+	.info > h2{
+		font-size:30px;
+	}
+
+	.info > ul{
+		list-style-type:none;
+		text-align:left;
+		padding-left:10%;
+		padding-right:10%;
+	}
+	.info > li{
+		font-size:8px;
+	}
+
+	.info > img{
+		width:7%;
+		border-radius: 200px;
+	}
+
+    nav{
+        font-size:10px;
+    }
+
+    .enter input,
+    .enter textarea{
+        width:300px;
+    }
+
+    .top > h1{
+        font-size:60px;
+        margin:80px;
+    }
+
+    .skills-bar{
+        width:65%;
+    }
+}
+
