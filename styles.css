@@ -720,7 +720,7 @@ a:hover{
 
 }
 
-@media screen and (max-width: 450px){
+@media screen and (max-width: 400px){
     #aly{
         margin-top: 25px;
         width:70%;
