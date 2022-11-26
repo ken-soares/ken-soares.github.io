@@ -462,7 +462,8 @@ nav a:hover{
     color:#ddd;
 }
 nav ul {
-	margin:0;padding:0;
+	margin:0;
+    padding:0;
     list-style-type:none;
     float:left;
     display:inline-block;
@@ -678,8 +679,8 @@ a:hover{
     }
     
     #aly{
-        margin-top: 60px;
-        width:92%;
+        margin-top: 40px;
+        width:85%;
     }
 
 	.info > h2{
@@ -727,15 +728,16 @@ a:hover{
         font-size:15px;
     }
 
+    .top > h1{
+        font-size: 45px;
+    }
+
 }
 
 @media screen and (max-width: 400px){
     #aly{
         margin-top: 35px;
-        width:80%;
-    }
-    .top h1{
-       font-size: 35px;
+        width:70%;
     }
     .top > h2{
         font-size: 1.25em;
