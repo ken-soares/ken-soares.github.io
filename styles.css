@@ -734,6 +734,9 @@ a:hover{
         margin-top: 45px;
         width:80%;
     }
+    .top h1{
+        font-size: 40px;
+    }
     .top > h2{
         font-size: 1.25em;
     }
