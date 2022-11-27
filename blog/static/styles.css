@@ -25,6 +25,7 @@ pre{
 
 .posts > li{
     list-style: none;
+   margin-bottom:10px;
 }
 
 .posts > li > a{
