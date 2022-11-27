@@ -16,28 +16,28 @@
 	<meta name="viewport" content="width=device-width,initial-scale=1" />
   </head>
   <body>
-
+      <script defer src="scripts/script.js"></script>
     <nav>
         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a>
+            <li><a href="index.html">Home</a></li>
+            <li><a>About</a>
                 <ul>
-                    <li><a href="#">~$ whoami</a></li>
-                    <li><a href="blog/index.html" target="_blank" rel="noopener noreferrer">Blog</a></li>
+                    <li><a href="#content">~$ whoami</a></li>
+                    <li><a href="https://ken-soares.github.io/blog" target="_blank" rel="noopener noreferrer">Blog</a></li>
                 </ul>
             </li>
-            <li><a href="#">Projects</a>
+            <li><a>Projects</a>
                 <ul>
-                  <li><a href="#">Recent</a></li>
-                  <li><a href="#">Github</a></li>
-                  <li><a href="#">Itch.io</a></li>
+                  <li><a href="#projects">Recent</a></li>
+                  <li><a href="https://github.com/ken-soares?tab=repositories" target="_blank" rel="noopener noreferrer">Github</a></li>
+                  <li><a href="https://haiirokoneko.itch.io/" target="_blank" rel="noopener noreferrer">Itch.io</a></li>
                 </ul>
             </li>
             <li><a href="#">Contact</a>
                   <ul>
-                      <li><a href="#">LinkedIn</a></li>
-                      <li><a href="#">Discord</a></li>
-                      <li><a href="#">Email</a></li>
+                      <li><a href="https://www.linkedin.com/in/kenneth-soares-67b5b7252/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+                      <li><a onclick="copyDiscord('IcePhoneX#2013')">Discord</a></li>
+                      <li><a href="#contact">Email</a></li>
                   </ul>
             </li>
         </ul>
@@ -146,40 +146,42 @@
 					<div class="progress-line sh"><span></span></div>
 				</div>
 			</div>
-			<center><h3>My Personal Projects</h3></center>
-			<p>You can find more of my projects on
-			my <a href="https://github.com/ken-soares" target="_blank" rel="noopener noreferrer">github account</a></p>
-			<section class="container">
-				<a href="https://github.com/ken-soares/ken-soares.github.io" target="_blank" rel="noopener noreferrer">
-					<div class="card">
-						<div class="card-image car-1"></div>
-						<h2>Codename: Æther</h2>
-						<p>This website you can see with features like
-						animations and responsive design.</p>
-					</div>
-				</a>
-				<a href="https://haiirokoneko.itch.io/the-other-other-spaceship-game" target="_blank" rel="noopener noreferrer">
-					<div class="card">
-						<div class="card-image car-2"></div>
-						<h2>TOOSG</h2>
-						<p>The Other Other Spaceship Game (TOOSG for
-						short) is a game I made in Unity in a week.</p>
-					</div>
-				</a>
-				<a href="https://github.com/ken-soares/yuki-chan-discordbot" target="_blank" rel="noopener noreferrer">
-					<div class="card">
-						<div class="card-image car-3"></div>
-						<h2>Yuki-chan</h2>
-						<p>A Discord bot written in Python</p>
-					</div>
-				</a>
-				<a href="https://pypi.org/project/pyssgen" target="_blank" rel="noopener noreferrer">
-					<div class="card">
-						<div class="card-image car-4"></div>
-						<h2>pyssgen</h2>
-						<p>A static site generator written in Python</p>
-					</div>
-				</a>
+            <div id="projects">
+                <center><h3>My Personal Projects</h3></center>
+                <p>You can find more of my projects on
+                my <a href="https://github.com/ken-soares" target="_blank" rel="noopener noreferrer">github account</a></p>
+                <section class="container">
+                    <a href="https://github.com/ken-soares/ken-soares.github.io" target="_blank" rel="noopener noreferrer">
+                        <div class="card">
+                            <div class="card-image car-1"></div>
+                            <h2>Codename: Æther</h2>
+                            <p>This website you can see with features like
+                            animations and responsive design.</p>
+                        </div>
+                    </a>
+                    <a href="https://haiirokoneko.itch.io/the-other-other-spaceship-game" target="_blank" rel="noopener noreferrer">
+                        <div class="card">
+                            <div class="card-image car-2"></div>
+                            <h2>TOOSG</h2>
+                            <p>The Other Other Spaceship Game (TOOSG for
+                            short) is a game I made in Unity in a week.</p>
+                        </div>
+                    </a>
+                    <a href="https://github.com/ken-soares/yuki-chan-discordbot" target="_blank" rel="noopener noreferrer">
+                        <div class="card">
+                            <div class="card-image car-3"></div>
+                            <h2>Yuki-chan</h2>
+                            <p>A Discord bot written in Python</p>
+                        </div>
+                    </a>
+                    <a href="https://pypi.org/project/pyssgen" target="_blank" rel="noopener noreferrer">
+                        <div class="card">
+                            <div class="card-image car-4"></div>
+                            <h2>pyssgen</h2>
+                            <p>A static site generator written in Python</p>
+                        </div>
+                    </a>
+            <div>
 			</section>
 			<section class="contact">
 				<h2 id="contact">Contact Me</h2>
