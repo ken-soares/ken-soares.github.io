@@ -1,7 +1,8 @@
 *{
-	--bg:#282828;
-	--fg:#ebdbb2;
-	--link:#d79921;
+	--bg:#1e1e2e;
+	--fg:#cdd6f4;
+	--link:#eba0ac;
+    --link-hover:#f38ba8;
 	font-family:'Courier new', Courier, monospace;
 }
 
@@ -89,7 +90,7 @@ a{
 }
 
 a:hover{
-	color:#fabd2f;
+	color:var(--link-hover);
 	transition:0.3s;
 }
 
