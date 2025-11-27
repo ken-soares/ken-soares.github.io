@@ -4,18 +4,12 @@
 
 ### Education
 
-I am currently in my second year at Université de Technologie de Belfort-Montbéliard. However, I am currently studying at AGH University of Krakow for an Erasmus exchange.
-
-Thanks to this Erasmus program, I now have the basics of Polish. I am also fluent in English and French.
+I am currently in my third year at Université de Technologie de Belfort-Montbéliard studying computer science. I did participate in an Erasmus program last semester in Poland over at AGH University of Kraków and learned a lot about Polish culture but also about statistics and auditing as well as risk management.
 
 ### My Interest in technology
 
-I started programming in 2017 with simple Pygame projects as well as making my own website. Nowadays, my passion projects revolve around C++ and Raylib, though I am learning OpenCV to get a head start in my chosen career in medical imagery.
+I started to learn programming in 2017 with simple Pygame projects as well as making my own website. Nowadays, as a hobby I picked up gamedev with Raylib and Godot. Outside of these hobby projects I do lots of self-learning especially regarding Data, and I am also trying to learn OpenCV to maybe try and work with medical imagery. Programming on Unix-based environments also thought me a lot about Linux as a whole and it means that I can be quite proefficient on servers, the student's association website project helped a lot on getting familiar with server infrastructures for python web projects.
 
-I tend to prefer programming on UNIX-based systems since the terminal workflow is better on them.
 
-### My Hobbies
-
-Since this website does not only serve as a curriculum vitae, I'll leave a line about my hobbies, as they define who I am in both my personal and professional spaces.
-
-I enjoy a wide variety of activities, from art with music production and DJing, as well as game development, to sports like skateboarding, swimming, and running, not forgetting cultural activities such as language learning.
+## Hobbies
+As for my hobbies I do a bit of music production and djing. I like card games like Magic the Gathering, game development and sports.
